@@ -1,0 +1,106 @@
+@import '../../../global.scss';
+
+.RightSlide {
+    color: $grey-lighter;
+    li {
+        padding: 15px 25px;
+        margin: 0;
+        width: auto;
+        text-align: left;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    li:hover {
+        color: $yellow-light;
+    }
+    span {
+        display: block;
+        width: 90%;
+    }
+    .main-navigation {
+        list-style: none;
+        padding: 25px 0;
+        margin: 0;
+
+        border-bottom: 4px solid $grey-lighter;
+        li {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+    }
+    .aside-navigation {
+        list-style: none;
+        padding: 25px 0;
+        margin: 0;
+
+        li {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .nav-right {
+        z-index: 1001;
+    }
+    .RightSlide {
+        color: $black;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80vw;
+        height: 64px;
+        z-index: 10000;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+        ul {
+            height: 64px;
+        }
+
+        li {
+            width: 100px;
+            padding: 0 15px;
+            height: 100%;
+            text-align: center;
+            word-wrap: none;
+            cursor: pointer;
+            font-weight: 700;
+            float: left;
+            display: flex;
+            align-items: center;
+        }
+        li:hover {
+            background: none;
+            color: $black;
+        }
+        span {
+            display: block;
+        }
+        .main-navigation {
+            list-style: none;
+            padding: 0 0;
+            margin: 0;
+            z-index: 1000;
+    
+            border-bottom: none;
+            li {
+                font-weight: 700;
+                font-size: 1.4rem;
+                .arrow {
+                    display: none;
+                }
+            }
+        }
+        .aside-navigation {
+            display: none;
+        }
+    }
+}

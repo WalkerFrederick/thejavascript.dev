@@ -46,7 +46,6 @@ const Author = ({ data, location, pageContext }) => {
                             <PostCard key={node.id} post={node} />
                         ))}
                     </section>
-                    <Pagination pageContext={pageContext} />
                 </div>
             </Layout>
         </>

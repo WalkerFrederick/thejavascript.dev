@@ -116,7 +116,6 @@ footer,
 header,
 hgroup,
 menu,
-nav,
 output,
 ruby,
 section,
@@ -668,23 +667,6 @@ h6 {
     background: var(--color-base);
 }
 
-.site-nav-item {
-    display: inline-block;
-    padding: 5px 10px;
-    color: #fff;
-    opacity: 0.7;
-}
-
-.site-nav-item:hover {
-    text-decoration: none;
-    opacity: 1;
-}
-
-.site-nav-icon {
-    height: 15px;
-    margin: -5px 0 0;
-}
-
 .site-logo {
     height: 25px;
 }
@@ -699,10 +681,6 @@ h6 {
     display: flex;
     align-items: center;
     margin: 0 -10px 0 20px;
-}
-
-.site-mast-right .site-nav-item:last-child {
-    padding-right: 0;
 }
 
 .site-banner {
@@ -949,38 +927,6 @@ h6 {
     }
 }
 
-
-/* Pagination
-/* ---------------------------------------------------------- */
-
-.pagination {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 4vw 0 0;
-}
-
-.pagination a {
-    display: inline-block;
-    padding: 10px 15px;
-    border: var(--color-border) 1px solid;
-    color: var(--color-secondary);
-    text-decoration: none;
-    font-size: 1.4rem;
-    line-height: 1em;
-    border-radius: var(--radius);
-}
-
-.pagination-location {
-    position: absolute;
-    left: 50%;
-    width: 100px;
-    margin-left: -50px;
-    text-align: center;
-    color: var(--color-secondary);
-    font-size: 1.3rem;
-}
 
 
 /* Footer

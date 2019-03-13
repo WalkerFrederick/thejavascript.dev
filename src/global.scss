@@ -1,0 +1,120 @@
+$brandcolor: #DAE1E7;
+$navbar: #22292F;
+$alt-background: #B8C2CC;
+
+
+
+
+
+//tailwind css colors because I think they are pretty, deal with it
+$white: #ffffff;
+$black: #22292F;
+
+//grey
+$grey-lightest: #F8FAFC;
+$grey-lighter: #F1F5F8;
+$grey-light: #DAE1E7;
+$grey-base: #B8C2CC;
+$grey-dark: #8795A1;
+$grey-darker: #606F7B;
+$grey-darkest: #3D4852;
+
+//red
+$red-lightest: #FCEBEA;
+$red-lighter: #F9ACAA;
+$red-light: #EF5753;
+$red-base: #E3342F;
+$red-dark: #CC1F1A;
+$red-darker: #621B18;
+$red-darkest: #3B0D0C;
+
+//orange
+$orange-lightest: #FFF5EB;
+$orange-lighter: #FCD9B6;
+$orange-light: #FAAD63;
+$orange-base: #F6993F;
+$orange-dark: #DE751F;
+$orange-darker: #613B1F;
+$orange-darkest: #462A16;
+
+//yellow
+$yellow-lightest: #FCFBEB;
+$yellow-lighter: #FFF9C2;
+$yellow-light: #FFF382;
+$yellow-base: #FFED4A;
+$yellow-dark: #F2D024;
+$yellow-darker: #684F1D;
+$yellow-darkest: #453411;
+
+//green
+$green-lightest: #E3FCEC;
+$green-lighter: #A2F5BF;
+$green-light: #51D88A;
+$green-base: #38C172;
+$green-dark: #1F9D55;
+$green-darker: #1A4731;
+$green-darkest: #0F2F21;
+
+//teal
+$teal-lightest: #E8FFFE;
+$teal-lighter: #A0F0ED;
+$teal-light: #64D5CA;
+$teal-base: #4DC0B5;
+$teal-dark: #38A89D;
+$teal-darker: #20504F;
+$teal-darkest: #0D3331;
+
+//blue
+$blue-lightest: #EFF8FF;
+$blue-lighter: #BCDEFA;
+$blue-light: #6CB2EB;
+$blue-base: #3490DC;
+$blue-dark: #2779BD;
+$blue-darker: #1C3D5A;
+$blue-darkest: #12283A;
+
+//indigo
+$indigo-lightest: #E6E8FF;
+$indigo-lighter: #B2B7FF;
+$indigo-light: #7886D7;
+$indigo-base: #6574CD;
+$indigo-dark: #5661B3;
+$indigo-darker: #2F365F;
+$indigo-darkest: #191E38;
+
+//purple
+$purple-lightest: #F3EBFF;
+$purple-lighter: #D6BBFC;
+$purple-light: #A779E9;
+$purple-base: #9561E2;
+$purple-dark: #794ACF;
+$purple-darker: #382B5F;
+$purple-darkest: #21183C;
+
+//pink
+$pink-lightest: #FFEBEF;
+$pink-lighter: #FFBBCA;
+$pink-light: #FA7EA8;
+$pink-base: #F66D9B;
+$pink-dark: #EB5286;
+$pink-darker: #6F213F;
+$pink-darkest: #451225;
+
+//colors for project
+$primary: $red-base;
+$primary-light: $red-lighter;
+$primary-dark: $red-darker;
+
+$secondary: $blue-base;
+$secondary-light: $blue-lighter;
+$secondary-dark: $blue-darker;
+
+$background: $grey-darker;
+$links: $orange-base;
+
+
+
+.arrow {
+    fill: $background;
+    height: 16px;
+  }
